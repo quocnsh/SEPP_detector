@@ -16,6 +16,11 @@
 ### Training classifier
 * Download `aclImdb.zip` from [google drive](https://drive.google.com/open?id=1YdndNH0RE6BEpg04HtK6VWemYrowWzvA), decompress and place the folder `aclImdb` in the root folder.
 * Run `training.py` or use command like `python3 training.py --model bert-large-cased --learning_rate 1e-5 --batch_size 4 --epochs 2` to train a classifier. You can train other models which are defined in here (https://huggingface.co/transformers/pretrained_models.html).
+* Other commands are used in our paper
+* `python3 training.py --model roberta-large --learning_rate 1e-5 --batch_size 4 --epochs 2`
+* `python3 training.py --model xlnet-large-cased --learning_rate 2e-5 --batch_size 2 --epochs 2`
+
+
 
 ### Predicting classifier
 * Run `predicting.py`

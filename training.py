@@ -80,7 +80,7 @@ def split_imdb_files():
 def train_model(model_name, batch_size, learning_rate, epochs):
     """
     train and save a model
-    Output:
+    Input:
         model_name: name of model from Hunggingface (https://huggingface.co/transformers/pretrained_models.html)
         batch_size: batch size of the model
         learning_rate: learning rate for training
